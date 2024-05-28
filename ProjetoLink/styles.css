@@ -1,0 +1,50 @@
+html{
+    margin: 0%;
+    padding: 0%;
+}
+.usuario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+img{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+}
+.links{
+    width: 300px;
+    margin: auto;
+}
+.caminhos{
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+button{
+    background-color: orangered;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 20px;
+    border: none;
+    height: 35px;
+}
+button:hover{
+    transition: 1.5s;
+    background-color: rgb(255, 83, 111);
+}
+button a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+}
+button a:hover{
+    transition: 1.2s;
+    transform: scale(1.2);
+    color: green;
+}
