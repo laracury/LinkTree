@@ -8,6 +8,7 @@ html{
     width: 100%;
 }
 body{
+    margin-top: 10%;
     background: linear-gradient(rgb(233, 25, 104), rgb(46, 43, 43));
     border-radius: 20px;
     border: 1px solid black;
