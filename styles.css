@@ -3,7 +3,7 @@
     padding: 0%;
 }
 html{
-    background: url(Imagens/fundo-rosa-floral-aquarela.jpg)no-repeat;
+    background: url(Imagens/fundo.jpg)no-repeat;
     background-position: center;
     background-size: cover;
     height: 100%;
@@ -14,7 +14,7 @@ body{
     border-radius: 20px;
 }
 .conteudo{
-    border: 4px solid rgb(165, 165, 165);
+    border: 4px solid rgb(70, 49, 119);
     width: 300px;
     margin: auto;
     border-radius: 20px;
@@ -44,19 +44,34 @@ img{
     margin-bottom: 22px;
 }
 a{
+    text-align: center;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 1.5rem;
     color: rgb(2, 2, 2);
+    font-weight: bold
 }  
 ion-icon{
-    padding-right: 10px;
+    margin: 0;
     align-items: center;
-    justify-items: left;
+    justify-content: center;
+    width: 30px;
+}
+.tiktok{
+    margin-left: -50px;
+}
+.youtube{
+    margin-left: -10px;
+}
+.gmail{
+    margin-left: -40px;
+}
+.linkedin{
+    margin-left: -5px;
 }
 button{
     background-color: rgb(241, 241, 241);
-    width: 180px;
+    width: 210px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,6 +80,12 @@ button{
     border: none;
     height: 35px;
     cursor: pointer;
+    padding: 0;
+}
+h6{
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 20%;
 }
 button:hover{
     transition: 1.5s;
